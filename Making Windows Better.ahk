@@ -6,6 +6,10 @@
 +^Left::Send, +{Home}
 +^Right::Send, +{end}
 
+;go to top or bottom of text feild
+^Up::Send, ^{Home}
+^Down::Send, ^{end}
+
 ;use alt + L or R to go to next word in chosen direction
 !Left::Send, ^{Left}
 !Right::Send, ^{Right}
@@ -13,4 +17,3 @@
 ;use shift + alt + L or R to highlight word in chosen direction
 +!Left::Send, +^{Left}
 +!Right::Send, +^{Right}
-
